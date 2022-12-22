@@ -197,7 +197,7 @@
             return $val;
         }
 
-        public function count()
+        public function count(): int
         {
             return (integer) $this->max_ptr;
         }
